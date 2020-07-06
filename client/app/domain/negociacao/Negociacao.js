@@ -4,7 +4,7 @@ class Negociacao {
       _quantidade,
       _valor,
     });
-    this._data = new Date(data.getTime());
+    this._data = new Date(_data.getTime());
     Object.freeze(this);
   }
 
@@ -24,3 +24,5 @@ class Negociacao {
     return this._valor;
   }
 }
+
+let n1 = new Negociacao(new Date(), 10, 200);
