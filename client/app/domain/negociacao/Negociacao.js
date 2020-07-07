@@ -24,5 +24,3 @@ class Negociacao {
     return this._valor;
   }
 }
-
-let n1 = new Negociacao(new Date(), 10, 200);
