@@ -18,7 +18,7 @@ class NegociacaoController {
       parseFloat(this._inputValor.value)
     );
 
-    let diaMesAno = DateConverter.paraData(negociacao.data);
+    let diaMesAno = DateConverter.paraTexto(negociacao.data);
 
     console.log(diaMesAno);
   }
